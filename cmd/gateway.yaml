@@ -1,0 +1,10 @@
+backendAPIConfig:
+  url: "http://localhost"
+  port: "8081"
+#  openAPISpecURL: "http://localhost:8000/openapi.json"
+gatewayConfig:
+  port: "8080"
+  timeoutSeconds: 30
+  logFile: "gateway.gwLogger"
+  logToFile: false
+  logLevel: "debug"

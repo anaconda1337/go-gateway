@@ -1,0 +1,10 @@
+{
+  "backendAPIConfig": {
+    "url": "http://localhost",
+    "port": "8081"
+  },
+  "gatewayConfig": {
+    "port": "8080",
+    "timeoutSeconds": 30
+  }
+}
